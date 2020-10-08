@@ -1,0 +1,33 @@
+# Ignore everything
+*
+.idea/
+/**/target
+
+# Don't ignore directories, so we can recurse into them
+!*/
+
+!*/docker
+!*/ansible
+!*/misc
+!*/temp
+
+# Don't ignore .gitignore
+!.gitignore
+!README.md
+!*.toml
+# Now exclude our type
+!*.rs
+!*.go
+!*.py
+!*.nim
+!*.hs
+!*.dart
+!*.js
+!*.lua
+!*.ruby	
+!*.sh
+!*.swift
+!*.ps
+#!*.d
+!*.c
+!*.cs
